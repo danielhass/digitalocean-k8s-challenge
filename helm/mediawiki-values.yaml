@@ -1,0 +1,7 @@
+extraEnvVars:
+  - name: MEDIAWIKI_EXTERNAL_HTTP_PORT_NUMBER
+    value: "8080"
+  - name: MEDIAWIKI_EXTERNAL_HTTPS_PORT_NUMBER
+    value: "8443"
+service:
+  type: ClusterIP
